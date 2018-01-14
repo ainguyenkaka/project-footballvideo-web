@@ -2,14 +2,21 @@
     'use strict';
 
     angular
-        .module('demoApp')
+        .module('footballApp')
         .config(stateConfig);
 
     stateConfig.$inject = ['$stateProvider'];
 
     function stateConfig($stateProvider) {
         $stateProvider.state('app', {
-            abstract: true
+            abstract: true,
+            views: {
+                'navbar': {
+                    templateUrl: 'app/layout/navbar/navbar.html',
+                    controller: 'NavbarController',
+                    controllerAs: 'vm'
+                }
+            }
         });
     }
 })();

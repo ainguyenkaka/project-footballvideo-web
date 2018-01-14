@@ -3,7 +3,7 @@
     'use strict';
 
     angular
-        .module('demoApp')
+        .module('footballApp')
         .factory('Base64', Base64);
 
     function Base64 () {

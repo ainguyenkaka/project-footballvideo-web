@@ -1,4 +1,4 @@
-beforeEach(module('demoApp'));
+beforeEach(module('footballApp'));
 /**
  * returns a function whose angular will be replaced
  * with whatever mock was supplied.

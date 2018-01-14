@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('demoApp')
+        .module('footballApp')
         .factory('DateUtils', DateUtils);
 
     DateUtils.$inject = ['$filter'];
