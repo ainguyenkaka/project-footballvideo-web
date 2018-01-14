@@ -5,6 +5,6 @@
         .module('footballApp')
         .constant('VERSION', "0.0.1-SNAPSHOT")
         .constant('DEBUG_INFO_ENABLED', false)
-        .constant('BUILD_TIMESTAMP', 1515940003107)
+        .constant('BUILD_TIMESTAMP', 1515940790243)
 ;
 })();
